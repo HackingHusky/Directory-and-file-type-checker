@@ -31,6 +31,10 @@ git clone https://github.com/yourusername/file-malware-scanner.git
 cd file-malware-scanner
 pip install rarfile py7zr
 ```
+On kali linux:
+```
+pipx install py7zr
+```
 
 Usage
 Scan a Single File:
