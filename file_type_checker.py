@@ -153,4 +153,4 @@ def log_findings(report_path, filepath, findings):
         report.write(f"File: {filepath}\n")
         report.write("\n".join(findings) + "\n" + "-"*40 + "\n")
     return findings[-1]  
-``
+
