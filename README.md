@@ -1,4 +1,5 @@
 🔍 File Type & Malware Scanner
+
 A Python-based tool for identifying file types, detecting suspicious files, and scanning directories recursively for potential malware indicators. It uses magic numbers, file extensions, and archive inspection to flag threats.
 
 ✅ Features
