@@ -25,13 +25,28 @@ Logs all findings in scan_report.txt.
 
 
 📦 Installation
-Shellgit clone https://github.com/yourusername/file-malware-scanner.gitcd file-malware-scannerpip install rarfile py7zrShow more lines
+```
+git clone https://github.com/yourusername/file-malware-scanner.git
+cd file-malware-scanner
+pip install rarfile py7zr
+```
 
-▶ Usage
-Scan a Single File
-Pythonfrom scanner import identify_file_typeresult = identify_file_type("path/to/file")print(result)Show more lines
-Scan a Directory Recursively
-Pythonfrom scanner import scan_directorysummary = scan_directory("path/to/directory")print(summary)Show more lines
+Usage
+Scan a Single File:
+Python
+```
+from scanner import identify_file_type
+result = identify_file_type("path/to/file")
+print(result)
+```
+
+Scan a Directory Recursively:
+Python
+```
+from scanner import scan_directory
+summary = scan_directory("path/to/directory")
+print(summary)
+```
 
 📝 Output
 
@@ -62,7 +77,9 @@ py7zr (for 7z support)
 
 
 Install dependencies:
-Shellpip install rarfile py7zrShow more lines
+```
+pip install rarfile py7zrShow 
+```
 
 ✅ Future Enhancements
 
