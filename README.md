@@ -83,10 +83,14 @@ pip install rarfile py7zrShow
 
 ✅ Future Enhancements
 
+
 Multi-threaded scanning for speed.
+
 JSON output for integration with SIEM tools.
+
 Optional hash-based malware signature checks.
 
 
 🔒 Disclaimer
+
 This tool is for educational and security auditing purposes only. Do not use it for malicious activities.
