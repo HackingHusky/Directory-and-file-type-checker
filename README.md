@@ -45,13 +45,7 @@ result = identify_file_type("path/to/file")
 print(result)
 ```
 
-Scan a Directory Recursively:
-Python
-```
-from scanner import scan_directory
-summary = scan_directory("path/to/directory")
-print(summary)
-```
+
 
 📝 Output
 
